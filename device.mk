@@ -227,6 +227,7 @@ PRODUCT_COPY_FILES += \
 TARGET_PREBUILT_KERNEL := device/xiaomi/onclite-kernel/Image.gz-dtb
 PRODUCT_COPY_FILES += \
     $(TARGET_PREBUILT_KERNEL):kernel
+PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/onclite-kernel/msm89xx/kernel-headers
 
 # keylayout
 PRODUCT_COPY_FILES += \
