@@ -487,11 +487,11 @@ service irsc_util /vendor/bin/irsc_util "/vendor/etc/sec_config"
     user root
     oneshot
 
-on property:bluetooth.hciattach=true
-    setprop bluetooth.status on
+on property:vendor.bluetooth.hciattach=true
+    setprop vendor.bluetooth.status on
 
-on property:bluetooth.hciattach=false
-    setprop bluetooth.status off
+on property:vendor.bluetooth.hciattach=false
+    setprop vendor.bluetooth.status off
 
 service atfwd /vendor/bin/ATFWD-daemon
     class late_start
