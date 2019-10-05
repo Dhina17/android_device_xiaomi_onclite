@@ -260,7 +260,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
 # Properties
--include device/xiaomi/onclite/prop.mk
+-include device/xiaomi/onclite/system_prop.mk
+-include device/xiaomi/onclite/vendor_prop.mk
 
 # QMI
 PRODUCT_PACKAGES += \
