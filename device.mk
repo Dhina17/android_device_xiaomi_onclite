@@ -249,6 +249,7 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    init.goodix.sh \
     init.msm.usb.configfs.rc \
     init.onclite.rc \
     init.qcom.rc \
