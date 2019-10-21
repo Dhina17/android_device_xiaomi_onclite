@@ -205,6 +205,10 @@ on boot
     chmod 0664 /dev/cpuset/camera-daemon/tasks
     chown system system /sys/kernel/hbtp/display_pwr
 
+
+# For DT2W
+    chown system system /sys/android_touch/wakeup_gesture_enable
+
 # access permission for wlan
     chown system system /mnt/vendor/persist/WCNSS_qcom_wlan_nv.bin
 

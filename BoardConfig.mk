@@ -186,6 +186,7 @@ TARGET_PER_MGR_ENABLED := true
 
 # Power
 TARGET_HAS_NO_WLAN_STATS := true
+TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/wakeup_gesture_enable"
 TARGET_USES_INTERACTION_BOOST := true
 
 # Qualcomm
