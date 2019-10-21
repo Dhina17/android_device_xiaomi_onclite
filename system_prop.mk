@@ -37,7 +37,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.recomputecrop=0 \
     dev.pm.dyn_samplingrate=1 \
     persist.demo.hdmirotationlock=false \
-    ro.sf.lcd_density=440 \
     ro.vendor.display.cabl=0 \
     ro.vendor.display.sensortype=2 \
     ro.vendor.display.svi=1 \
@@ -118,3 +117,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.video.disable.ubwc=1 \
     persist.sys.usb.diag_mdlog_enable=false \
     persist.debug.wfd.enable=1 \
+
+# Screen density
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=281
