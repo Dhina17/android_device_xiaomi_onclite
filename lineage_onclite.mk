@@ -22,10 +22,10 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "xiaomi/onc/onc:9/PKQ1.181021.001/V10.3.3.0.PFLINXM:user/release-keys"
+BUILD_FINGERPRINT := "xiaomi/onc/onc:9/PKQ1.181021.001/V10.3.4.0.PFLMIXM:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="onc-user 9 PKQ1.181021.001 V10.3.3.0.PFLINXM release-keys" \
+    PRIVATE_BUILD_DESC="onc-user 9 PKQ1.181021.001 V10.3.4.0.PFLMIXM release-keys" \
     PRODUCT_NAME="onc" \
     TARGET_DEVICE="onc"
 
