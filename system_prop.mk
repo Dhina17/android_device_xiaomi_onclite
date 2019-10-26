@@ -112,7 +112,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.video.disable.ubwc=1 \
     persist.sys.usb.diag_mdlog_enable=false \
     persist.debug.wfd.enable=1 \
-
-# Screen density
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=281
