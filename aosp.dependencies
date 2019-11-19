@@ -9,10 +9,4 @@
    "repository": "android_vendor_xiaomi_onclite",
    "target_path": "vendor/xiaomi/onclite"
  },
- {
-   "repository": "android_packages_resources_devicesettings",
-   "target_path": "packages/resources/devicesettings",
-   "branch": "lineage-16.0",
-   "remote": "lineage"
- }
 ]
