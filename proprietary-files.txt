@@ -56,7 +56,6 @@ vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
@@ -70,7 +69,6 @@ vendor/lib64/libaudioalsa.so
 vendor/lib64/libaudioparsers.so
 vendor/lib64/libqtigef.so
 vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libaudiopreprocessing.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcvirt.so
 
@@ -86,16 +84,8 @@ vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Audio-Hardware
-vendor/lib/hw/audio.primary.msm8953.so
 vendor/lib/libtinycompress_vendor.so
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
-vendor/lib64/hw/audio.primary.msm8953.so
 vendor/lib64/libtinycompress_vendor.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
 
 # Bluetooth - from LA.UM.8.6.2.r1-03700-89xx.0
 -lib/libbtconfigstore.so|c88af75a5c8e62c75d505a89c574117feefc11c6
@@ -213,7 +203,6 @@ vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2vop.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libflash_pmic.so
-vendor/lib/libgui_vendor.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
@@ -231,19 +220,16 @@ vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libremosaic_daemon.so
-vendor/lib/libstdc++.so
 vendor/lib/libsymphony-cpu.so
 vendor/lib/libsymphonypower.so
 vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
 vendor/lib/libvidhance_gyro.so
 vendor/lib/mibokeh_632_opencl.bin
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/libbase64.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libvideoutils.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 
 # Camera-actuators
 vendor/lib/libactuator_dw9714.so
@@ -996,38 +982,6 @@ vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|e3cb732c0bd519988100675edf385d947abf5f6c
 vendor/lib64/libwvhidl.so|4af61fdcf1186700ea7ee23c607fb9ce5fd0f0e8
 
-# Display-Hardware
-vendor/lib/hw/gralloc.msm8953.so
-vendor/lib/hw/hwcomposer.msm8953.so
-vendor/lib/hw/memtrack.msm8953.so
-vendor/lib/libdrm.so
-vendor/lib/libdrmutils.so
-vendor/lib/libgpu_tonemapper.so
-vendor/lib/libgrallocutils.so
-vendor/lib/libqdMetaData.so
-vendor/lib/libqdutils.so
-vendor/lib/libqservice.so
-vendor/lib/libsdmcore.so
-vendor/lib/libsdmextension.so
-vendor/lib/libsdmutils.so
-vendor/lib/vendor.display.config@1.0.so
-vendor/lib/vendor.display.config@1.1.so
-vendor/lib64/hw/gralloc.msm8953.so
-vendor/lib64/hw/hwcomposer.msm8953.so
-vendor/lib64/hw/memtrack.msm8953.so
-vendor/lib64/libdrm.so
-vendor/lib64/libdrmutils.so
-vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libgrallocutils.so
-vendor/lib64/libqdMetaData.so
-vendor/lib64/libqdutils.so
-vendor/lib64/libqservice.so
-vendor/lib64/libsdmcore.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libsdmutils.so
-vendor/lib64/vendor.display.config@1.0.so
-vendor/lib64/vendor.display.config@1.1.so
-
 # Display-calibration
 vendor/etc/qdcm_calib_data_CSOT_otm1901a_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_boe_hx8394f_video_mode_dsi_panel.xml
@@ -1250,8 +1204,6 @@ vendor/lib/hw/keystore.msm8953.so|a10a63a4211a780ce499e27a635b8800e8e8c701
 vendor/lib64/hw/keystore.msm8953.so|e8dded3c500eb785d667ddc0d3010f5aac9cfcd6
 
 # Keystore
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so
 
 # Latency
@@ -1717,9 +1669,6 @@ vendor/etc/init/init.time_daemon.rc|edb18291351eb7efcb597d33c2c7f2d9bb7328a9
 # Voice
 vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
-
-# WiFi
-vendor/bin/wcnss_service
 
 # Wi-Fi Display - from LA.UM.8.6.2.r1-03700-89xx.0
 bin/wfdservice|8c080c28f6d30260b4739afce397158416863ba4
