@@ -282,7 +282,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf
 
 # Properties
--include device/xiaomi/onclite/system_prop.mk
 -include device/xiaomi/onclite/vendor_prop.mk
 
 # QMI
