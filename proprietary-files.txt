@@ -984,53 +984,50 @@ vendor/lib/libdpmqmihal.so
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
 
-# DRM
-vendor/bin/qseecomd
-vendor/lib/libGPQTEEC_vendor.so
-vendor/lib/libGPTEE_vendor.so
-vendor/lib/libGPreqcancel.so
-vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libQSEEComAPI.so
-vendor/lib/libSecureUILib.so
-vendor/lib/libStDrvInt.so
-vendor/lib/libcpion.so
-vendor/lib/libcppf.so
-vendor/lib/libdrmfs.so
-vendor/lib/libdrmtime.so
-vendor/lib/libqisl.so
-vendor/lib/librmp.so
-vendor/lib/librpmb.so
-vendor/lib/libsdedrm.so
-vendor/lib/libsecureui.so
-vendor/lib/libsecureui_svcsock.so
-vendor/lib/libssd.so
-vendor/lib/libtzdrmgenprov.so
-vendor/lib64/libGPQTEEC_vendor.so
-vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libcpion.so
-vendor/lib64/libcppf.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
-vendor/lib64/libqisl.so
-vendor/lib64/librmp.so
-vendor/lib64/librpmb.so
-vendor/lib64/libsdedrm.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libssd.so
-vendor/lib64/libtzdrmgenprov.so
+# DRM - from davinci-user 10 QKQ1.190825.002 9.9.26 release-keys
+vendor/bin/qseecomd|085fe618caebc1ee728f14ddac3333d5982f90aa
+vendor/lib/libcpion.so|2595dade0b89605c1222545c8265691d17b7148c
+vendor/lib/libcppf.so|f3d37a8c9ebb5a85aa11c5411368b3e64563b3da
+vendor/lib/libdrmfs.so|e5074fc139a5185fa6f591823ed382ce7de893fe
+vendor/lib/libdrmtime.so|3afe1f0c11dd8674c962e816804dcecf6cc5a3d8
+vendor/lib/libGPQTEEC_vendor.so|fb74184230689cb939ef35a44f1d05d7d0a36614
+vendor/lib/libGPreqcancel.so|41827597d177591e4a3881c38bccb186ebb5e4a8
+vendor/lib/libGPreqcancel_svc.so|ccd4cae24edc0201957e9dd249e3586f248de4c0
+vendor/lib/libGPTEE_vendor.so|6e37794ef02d135df40aa867b75b2610daf86ff5
+vendor/lib/libqisl.so|7ab9610b5aabeaf07b218cc4830edbd0a0f12bd9
+vendor/lib/libQSEEComAPI.so|6ac1ec0084ba279461b34e5929c696ad12ce2e93
+vendor/lib/librmp.so|b02a406392e5793de2de408313346ee9fd77f27b
+vendor/lib/librpmb.so|9f7193f44a115eaedf2e44dd584ed3f610447300
+vendor/lib/libsdedrm.so|3422c90488c8c8f20ac9f074259a5bd45da65ced
+vendor/lib/libsecureui.so|8294d97b8d0544fa3d76ad623bde278ac186f307
+vendor/lib/libSecureUILib.so|af772d798d4f59878a41b477d8e64036e40d630d
+vendor/lib/libsecureui_svcsock.so|bcad3caf9102d4ba326b0eaf64b717d83352f2bc
+vendor/lib/libssd.so|d2fcb392dc20ea781b63add646e17daa01084f0f
+vendor/lib/libStDrvInt.so|d8633c902955af23245f70fbb8780f3416dfa789
+vendor/lib64/libcpion.so|becd3018e5780ef4862852da8743933759ce14ac
+vendor/lib64/libdrmfs.so|0165b548483aa9c08ba3f3979851bbdf1dcfefc4
+vendor/lib64/libdrmtime.so|5f42c99c4d550a01ece412d0d82c5b8e45c008b4
+vendor/lib64/libGPQTEEC_vendor.so|3ef2c29d24e13460226daac355a7495b91f84940
+vendor/lib64/libGPreqcancel.so|e097d1e6e7f15c74e2c8bdbee13b0cadb90c59f1
+vendor/lib64/libGPreqcancel_svc.so|5f9948ca68a0e007208063d7fe8d6cd9f0fceec9
+vendor/lib64/libGPTEE_vendor.so|0abd055676626e20585b9ab396c8973fd53af191
+vendor/lib64/libqisl.so|f81d523e3e257e99bd055f6576521519a074e630
+vendor/lib64/libQSEEComAPI.so|ed64c096d694b75658dd4a54f888f48639a5c8c0
+vendor/lib64/librmp.so|df554fc134a5fd1045d01986fa24ec5920fc0539
+vendor/lib64/librpmb.so|fafcef298c853e656be94b353b19bc504db1631c
+vendor/lib64/libsdedrm.so|6657f06897a4dc2e6ea413492c640b9b2de8757e
+vendor/lib64/libsecureui.so|6cac3cdc3645084aae88ea7cca3a7e58ff9bd70b
+vendor/lib64/libSecureUILib.so|6988566aaa37fea83d32057bc79b5a2740ff1d98
+vendor/lib64/libsecureui_svcsock.so|395c566741520f1c6d97259355f04d6095eb1688
+vendor/lib64/libssd.so|5ca153e887b9e386de6ae998af9f849ada111747
+vendor/lib64/libStDrvInt.so|a7bd8140e2cd5aa70a7d929e01233e5b71844cd8
 
-# DRM-Widevine
-vendor/bin/hw/android.hardware.drm@1.1-service.widevine
-vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib64/libwvhidl.so
-vendor/lib64/mediadrm/libwvdrmengine.so
+# DRM-Widevine - from davinci-user 10 QKQ1.190825.002 9.9.26 release-keys
+vendor/bin/hw/android.hardware.drm@1.2-service.widevine|95fb8c0063c50bd34c43c58c55840239207f26cb
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|68767969f86126ada017fc09af151e299db651d5
+vendor/lib/libwvhidl.so|c6250a2107597ec978cec3a91e74a12d042e4f32
+vendor/lib/mediadrm/libdrmclearkeyplugin.so|ce6e571d20aee8601b1c36ddee80cd9e47e6a07f
+vendor/lib64/mediadrm/libdrmclearkeyplugin.so|0289025f5a34f3c7e04d816b81ca21a2153c32f4
 
 # Display-Hardware
 vendor/lib/hw/gralloc.msm8953.so
@@ -1580,10 +1577,10 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so|3a70bf386f26c96b7ed8b94392b015
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|bf72b4543af85ba2ad39e075a1f68085cfb75270
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|99296dc2831410fed5df4e397845618b40d0a3a1
 vendor/radio/qcril_database/qcril.db|f25a9215fcc2445e73d1aa0b7ef9bdbd97e33f56
-vendor/radio/qcril_database/upgrade/0_initial.sql
-vendor/radio/qcril_database/upgrade/1_version_intro.sql
-vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql
-vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql
+vendor/radio/qcril_database/upgrade/0_initial.sql|5e531d022516c230677271db51ba1c08d3336cfd
+vendor/radio/qcril_database/upgrade/1_version_intro.sql|2d13d5c6548dcac361d4e66c2a0ab22ed858477d
+vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql|b4a825ba20fea3e2f20c7f02c8bd64596c24a75e
+vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql|0571aacaf9fc0868c48bba2f7542f5b4e68c9022
 
 # Radio-IMS - from tissot-user 9 PKQ1.180917.001 V10.0.13.0.PDHMIXM release-keys
 -app/imssettings/imssettings.apk|20d9b2c3f5939d4bfa7c03b5383d0cf03dbbc39e
