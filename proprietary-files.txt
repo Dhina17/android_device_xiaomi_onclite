@@ -1531,15 +1531,15 @@ vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
-# Qteeconnector
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
-vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib/libQTEEConnector_vendor.so
-vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib64/libQTEEConnector_vendor.so
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
+# Qteeconnector - from davinci-user 10 QKQ1.190825.002 9.9.26 release-keys
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|186b7410234082720a7c9fc3cd8f27b9c9cfe962
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|ee750c252381ee7d89ca2ac4080ed582edbf1fbf
+vendor/lib/libQTEEConnector_vendor.so|79b7b3d90e7fe640a96420370382db65689d8a23
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|a2ecf9a389892d21f6f17288a48f41ddb6e77074
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|7102523307cbf44c01364b725bb72a7bd0cae2c8
+vendor/lib64/libQTEEConnector_vendor.so|48275dc35631062248c7d697478c58eb6793a92a
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|3202c209bd8249e3f76dec1108788b1a85b53561
 
 # Radio - from davinci-user 10 QKQ1.190825.002 9.9.26 release-keys
 etc/permissions/privapp-permissions-qti.xml|3eda27003bad39514039190d0d7eb675ba034cb9
