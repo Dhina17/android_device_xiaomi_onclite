@@ -200,9 +200,6 @@ TARGET_PER_MGR_ENABLED := true
 TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/wakeup_gesture_enable"
 TARGET_USES_INTERACTION_BOOST := true
 
-# Qualcomm
-BOARD_USES_QCOM_HARDWARE := true
-
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
