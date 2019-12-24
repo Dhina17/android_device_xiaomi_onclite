@@ -107,7 +107,7 @@ vendor/lib64/libbtnv.so|1d5950be9a0324e3ec17da3a9a884d99a7720f69
 vendor/lib64/libbt-hidlclient.so|1ab2068ff7c71355e6cf7055f1d28a76da303742
 
 # Bluetooth (shared dependencies) - from LA.UM.8.6.2.r1-03700-89xx.0
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|82ad748b7abeb20e226ea969cd7dbc2b7021ffc0
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|db3afdb3dcc6e39effed66e6397131a1dafd86a1
 
 # Bluetooth-AptX - from crosshatch-user 10 QP1A.190711.020 5800535 release-keys
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
@@ -193,11 +193,11 @@ vendor/lib64/vendor.qti.hardware.data.connection@1.0.so|94719b0230c2776b9346a328
 vendor/lib64/vendor.qti.hardware.data.connection@1.1.so|3e16510ef21b8b6eea02ccf923e8365ae64ac620
 vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|7108687903399a1ff79db8a9587991419db87422
 vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so|b5d94f1013e74e8a5a30e394aafe25fa3f9b00c0
-vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|064828d807acc880174a32d3308b03c1d9ed5748
+vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|1fe5cd9c8c5177f405dc7af9dfa1152955896d4f
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|138dbd309e9e34d4143c71feca3eccb6b0f87ec4
 vendor/lib64/vendor.qti.hardware.factory@1.0.so|7a61c2d4acaf748934d154af3a6b8fe6bbe0b721
 vendor/lib64/vendor.qti.hardware.factory@1.1.so|1bf6d03e47d20df05725dff70c3723d0ac69f4f6
-vendor/lib64/vendor.qti.latency@2.0.so|1b9583d7536064e4f37a4bfeb68f918eaddfee81
+vendor/lib64/vendor.qti.latency@2.0.so|a65daa87e3fe935164d314f112c07d960b6d6c4f
 
 # Camera
 vendor/lib/hw/camera.msm8953.so
@@ -1181,7 +1181,7 @@ vendor/lib/libgsl.so|36e89400f3684813276a9263c930b4703b6b9c3b
 vendor/lib/libhdr_tm.so|f1d9566f7c6bb92521b86fcbd03b76b1375b3d15
 vendor/lib/libllvm-glnext.so|fbaea67d81d87ce447f5c6ef0b6ba02bd7a3ee1d
 vendor/lib/libllvm-qcom.so|8a96fc2e1f51442327ef93797d8fb85b2769b9a7
-vendor/lib/libmm-hdcpmgr.so|fe151b56e2cbe2ca9eb624d911808eb287fea483
+vendor/lib/libmm-hdcpmgr.so|225edab26e411af5486f3dce8d00b7e8af475cac
 vendor/lib/librs_adreno.so|5242c974a6bf83759cf042f9e4075bcd24ebc5af
 vendor/lib/librs_adreno_sha1.so|baae82ba5d188fd4e4a5ba7200c837a25ef343ba
 vendor/lib64/egl/eglSubDriverAndroid.so|aee34989adb4d6ad70ff6500216cd6b6a5d0adb6
@@ -1202,7 +1202,7 @@ vendor/lib64/libgsl.so|9d5a0612bcab9a7357239a323628b859fb9f27c5
 vendor/lib64/libhdr_tm.so|208637299f17b43013b88f5e5538c562b54ad644
 vendor/lib64/libllvm-glnext.so|ce0f154e6d3f39bbbb142686a10f632109af2caa
 vendor/lib64/libllvm-qcom.so|f9e4173b36ba354c2671fc6dfe974fac7aaf727b
-vendor/lib64/libmm-hdcpmgr.so|6929f0f7feaceb9a6d71ea6c0a0b7851d7934e04
+vendor/lib64/libmm-hdcpmgr.so|cc435f22abef9aa9838d6e0d6154e367dcb74a07
 vendor/lib64/librs_adreno.so|c60de02ed47887f1e7e64f67ec40429ac5286e66
 vendor/lib64/librs_adreno_sha1.so|3fe3528fe6958db0d46144441996c06ddce4027c
 
@@ -1211,13 +1211,13 @@ vendor/lib/libscalar.so|5793dfa5d29a20e123de2afb2691713f5cb75c74
 vendor/lib/libsdm-color.so|4dc7a8c90521c45b3e25623985cf4486e6fb7b57
 vendor/lib/libsdm-diag.so|6b8ddfbf870f329ca9e9fb50c3e9cb1a54bbb6ab
 -vendor/lib/libsdm-disp-vndapis.so|5b5ab2404541a8e3fd97a4e600bc34e7f3e2e56c
-vendor/lib/libsdmextension.so|6b232c519ae916405d2781b1a821ae3347f3c38b
+vendor/lib/libsdmextension.so|3859959de2a7a62765f48d89e036ed9a89cb0dad
 vendor/lib/libtinyxml2_1.so|58932a10e8e410dc7b263bc36b5c89e37623059a
 vendor/lib64/libscalar.so|43cb8279a855796d26dedb41efcb0f16b6ad7394
 vendor/lib64/libsdm-color.so|f465d382260baed2d2f326ca663e03cccd73a0b7
 vendor/lib64/libsdm-diag.so|4ec7f55fd8a4a1a316282be57e1d5c1a3a20660d
 -vendor/lib64/libsdm-disp-vndapis.so|b04cd604137e52f4f9bb372db01884106da9834a
-vendor/lib64/libsdmextension.so|9d4a0618defa62b182533def624bc7d2496844cd
+vendor/lib64/libsdmextension.so|4354a9d6ca241df012bb2150e04867b12f808fa5
 vendor/lib64/libtinyxml2_1.so|5eaa71107c3ac981774b523a761246aa18a6a5cf
 
 # IOP
@@ -1435,7 +1435,6 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 product/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991
 product/etc/permissions/telephonyservice.xml|a39eefcaf85fb8da60044fdbbcfddd95deb031c8
 product/framework/qcrilhook.jar|23768fda90519d799e682fd058ec85b7b5cd6f89
-product/framework/qti-telephony-common.jar|877de1466cbea094738d2cfb50d7cbcfc4ac2ed1
 product/framework/QtiTelephonyServicelibrary.jar|ea30b05eaad3ebee157421b3f31bf8585566b4cd
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|71d083671c3ea4cd5e287a63fb254bb0ab60ed20
 vendor/bin/hw/qcrild|81eb6798900284293c14019d2aae5d9d65ad6f4a
@@ -1534,6 +1533,9 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|ca74cebb3a301253
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|089d4a84617d79caa3b01403d1b865e551b1b8b5
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|1c49680c88488e6b6d0632f558ed76d3cb1ae2e5
 vendor/radio/qcril_database/qcril.db|52017df09c46cc8e72b83298162fc667aeec6879
+
+# Radio (telephony) - from DRG - QKQ1.190828.002
+product/framework/qti-telephony-common.jar|877de1466cbea094738d2cfb50d7cbcfc4ac2ed1
 
 # Radio (qcril database)
 vendor/radio/qcril_database/upgrade/0_initial.sql
