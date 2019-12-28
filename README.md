@@ -28,7 +28,7 @@ budget smartphone from Xiaomi.
  
   ## Device picture
  
-  ![Xiaomi Redmi 7 ](https://mymobile.com.au/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/x/i/xiaomi_redmi_7_32gb_blue_3gb_-_1_1.jpg "Xiaomi Redmi 7")
+  ![Xiaomi Redmi 7 ](https://www.91-cdn.com/pricebaba-images/images/product/mobile/66422/xiaomi-redmi-7-raw-330605.jpg "Xiaomi Redmi 7")
 
 
  
