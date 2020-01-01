@@ -144,7 +144,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vidc.enc.dcvs.extra-buff-count=2 \
     debug.enable.sglscale=1 \
     debug.mdpcomp.logs=0 \
-    keyguard.no_require_sim=true \
     persist.hwc.enable_vds=1 \
     persist.hwc.mdpcomp.enable=true \
     vendor.video.disable.ubwc=1
@@ -179,7 +178,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     rild.libargs=-d /dev/smd0 \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     ro.carrier=unknown \
-    ro.com.android.dataroaming=true \
     ro.telephony.default_network=22,20 \
     telephony.lteOnCdmaDevice=1 \
     vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
@@ -199,10 +197,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # USB
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.usb.diag_mdlog_enable=false
-
-# Wifi-display
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.debug.wfd.enable=1
 
 # Misc
 PRODUCT_PROPERTY_OVERRIDES += \
