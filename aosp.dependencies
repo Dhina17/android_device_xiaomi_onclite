@@ -1,13 +1,15 @@
 [
  {
-   "repository": "android_kernel_xiaomi_onclite",
+   "repository": "mylove90/android_kernel_xiaomi_onc",
    "target_path": "kernel/xiaomi/onclite",
-   "branch": "Q"
+   "branch": "Q",
+   "remote": "github"
  },
  {
-   "repository": "android_vendor_xiaomi_onclite",
+   "repository": "Dhina17/vendor_xiaomi_onclite",
    "target_path": "vendor/xiaomi/onclite",
-   "branch": "10.x"
+   "branch": "10.x",
+   "remote": "github"
  },
  {
    "repository": "android_packages_resources_devicesettings",
