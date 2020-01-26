@@ -1495,8 +1495,10 @@ vendor/radio/qcril_database/upgrade/1_version_intro.sql
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql
 vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql
 
+# Radio (ims) - from  LA.UM.8.6.2.r1-03700-89xx.0 (patched to disable HD icon)
+-product/priv-app/ims/ims.apk|f0fbe985cb3b08b319afaefa4576befdd68eb314
+
 # Radio - IMS - from LA.UM.8.6.2.r1-03700-89xx.0
--product/priv-app/ims/ims.apk|7310e333b03172968b439fdb88485adc1e1c60fa
 lib64/libdiag_system.so|d2df4091312b9fb9a4b6e0daa420bad676419426
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|aeaf8d4c7d421bd25a1aca1736980b6e4575c7ce
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|d52cdba3a8f1c00098568965c0cbaa03502f961e
