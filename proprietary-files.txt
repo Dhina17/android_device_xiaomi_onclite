@@ -1487,7 +1487,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|1c49680c88488e6b
 vendor/radio/qcril_database/qcril.db|52017df09c46cc8e72b83298162fc667aeec6879
 
 # Radio (telephony) - from DRG - QKQ1.190828.002
-product/framework/qti-telephony-common.jar|877de1466cbea094738d2cfb50d7cbcfc4ac2ed1
+product/framework/qti-telephony-common.jar|74adbf98e89531ac385ab5c4cea3c2549a0d24b0
 
 # Radio (qcril database)
 vendor/radio/qcril_database/upgrade/0_initial.sql
