@@ -980,6 +980,9 @@ vendor/bin/consumerird
 vendor/lib/hw/consumerir.default.so
 vendor/lib64/hw/consumerir.default.so
 
+# DPM service app - from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+-product/priv-app/dpmserviceapp/dpmserviceapp.apk|9fd873c5330c03c62dfdeb6540b5984588295319
+
 # DPM - from LA.UM.8.6.2.r1-6600-89xx.0
 framework/tcmclient.jar|6ef9ca98f67c144fc8ae941bb3a47f99cbd93098
 product/bin/dpmd|90cdd79b564456cef2a0c011afab3896463df5e4
@@ -994,7 +997,6 @@ product/lib64/libdpmctmgr.so|cfdf0403f51a83d928b3ffb88bc8c6fe7cd2edba
 product/lib64/libdpmfdmgr.so|b98194f1f5b1e31a5d1e4926d7b1d97ecdcf606b
 product/lib64/libdpmframework.so|e550d6159caf57eb3cbf7f8f035b2d837a552236
 product/lib64/libdpmtcm.so|4ebd17a670aa9091024e62ab2c3587061469050c
--product/priv-app/dpmserviceapp/dpmserviceapp.apk|e89960e1ce2a390d7f940d11dd1d0128a9949e33
 vendor/bin/dpmQmiMgr|1a468bf799fb8845391a00a922dcefe70d723d10
 vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ab5d46cbf14ce90ab44aaab4dc1520378c568033
