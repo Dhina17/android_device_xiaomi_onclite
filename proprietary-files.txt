@@ -1145,15 +1145,13 @@ vendor/lib/vendor.qti.gnss@2.0.so|01a758755fde82e4a858aa6d13fa2ad8d7db88a2
 vendor/lib/vendor.qti.gnss@2.1.so|2570d17bf645269234c81cb590641573a57f10b7
 vendor/lib/vendor.qti.gnss@3.0.so|9cebefe82e6f52ebe4d309d82fe130efe6d9751a
 
-# Gatekeeper - from LA.UM.8.6.2.r1-03700-89xx.0
-vendor/lib/hw/gatekeeper.msm8953.so|3746658d0fb38050fb850e4bd91a7c777beda74e
-vendor/lib64/hw/gatekeeper.msm8953.so|aaad6de1e51d86ff822aedb3482f61e0703e3c37
-
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+# Gatekeeper - from LA.UM.8.6.2.r1-06600-89xx.0
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|14751f15eba2a00f20a39d1ec4fccbacb819ab34
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|5dcfb971429e0c7a78bc9d1c5608b75dd0810088
+vendor/lib/hw/gatekeeper.msm8953.so|c153dbbd2c31ccee8633837961ce79909257af04
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|229aa37e416f155002c925bf8f69715b6ba05d52
+vendor/lib64/hw/gatekeeper.msm8953.so|2982026cfb7911d279bd4c9be3a02ad21cdb54ec
 
 # Graphics - from LA.UM.8.6.2.r1-03700-89xx.0
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so|f3a783ad3f46550dca9923885d82e5bb8f6cdd27
