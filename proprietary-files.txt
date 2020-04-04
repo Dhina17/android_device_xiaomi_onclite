@@ -1389,19 +1389,19 @@ vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
-# Qteeconnector
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
-vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib/libGPQTEEC_vendor.so
-vendor/lib/libGPTEE_vendor.so
-vendor/lib/libQTEEConnector_vendor.so
-vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib64/libGPQTEEC_vendor.so
-vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/libQTEEConnector_vendor.so
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
+# QTEE - from LA.UM.8.6.2.r1-06600-89xx.0
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|b03632420eea636c9c1585d18703340cdf5dd2fe
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|de86f2bc96d13d1d31a6d013066e5c78e6df501c
+vendor/lib/libGPQTEEC_vendor.so|081be76bc43be423a476a95d7d85b4bbe76a730e
+vendor/lib/libGPTEE_vendor.so|edf78997f17f40b6d39fc149452bae53ffa9f9f6
+vendor/lib/libQTEEConnector_vendor.so|12f16044a7a41367b3fa869f5e61b30b06f3831c
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|019731e169dad4d46eda3e4e11273eee7dce15a4
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|a6c66668dc1a0d6f48c23e51ade43a9df8f9ebf0
+vendor/lib64/libGPQTEEC_vendor.so|5d0964815ac1682c56c53db4c30548599356b03c
+vendor/lib64/libGPTEE_vendor.so|8c9e34e96ed2d51f97daf9245adafbeb6561011c
+vendor/lib64/libQTEEConnector_vendor.so|af84fc33a0a87d3c23d146e4658d8274d1d26805
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|b2d1f88ccd334631ea2002a5b6b5c8557201278f
 
 # Radio - from LA.UM.8.6.2.r1-06600-89xx.0
 -product/app/atfwd/atfwd.apk|2cdfbd4649a4087fda35995cf66236dbd1113972
