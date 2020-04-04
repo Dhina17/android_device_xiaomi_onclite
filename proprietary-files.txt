@@ -1223,27 +1223,21 @@ vendor/lib64/libqti-iopd-client.so
 vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
 
-# Keymaster
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
-vendor/lib/libqtikeymaster4.so
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
-vendor/lib64/libqtikeymaster4.so
+# Keymaster - from LA.UM.8.6.2.r1-06600-89xx.0
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|f2ce9a6ddb3e8b401903eb5da92885dff8fc7222
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
+vendor/lib/libkeymasterdeviceutils.so|3c68f7419da4402cfe347e6a4bdddcb1170e8dd9
+vendor/lib/libkeymasterprovision.so|d2a59fca66b7843e0b05e3557afc34dd5732c0f1
+vendor/lib/libkeymasterutils.so|94f4465c1ec6cc1bd4af86b48b7c197503814017
+vendor/lib/libqtikeymaster4.so|a2ad61dda88bae4285877414c25f5442fb95b501
+vendor/lib64/libkeymasterdeviceutils.so|b5d4819abb7dbd7908dfe7c6cfa5035e02b10383
+vendor/lib64/libkeymasterprovision.so|2358a0058e94a2f4e18f3644456e0d07e2dcdd34
+vendor/lib64/libkeymasterutils.so|b4fd9216b4ee9c2ef91cca3d08ca030ff51fdad1
+vendor/lib64/libqtikeymaster4.so|821ba3d3f7d15ca5d4c1db5b853acf0d91876c41
 
-# Keystore - from LA.UM.8.6.2.r1-03700-89xx.0
-vendor/lib/hw/keystore.msm8953.so|a10a63a4211a780ce499e27a635b8800e8e8c701
-vendor/lib64/hw/keystore.msm8953.so|e8dded3c500eb785d667ddc0d3010f5aac9cfcd6
-
-# Keystore
-vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so
+# Keystore - from LA.UM.8.6.2.r1-06600-89xx.0
+vendor/lib/hw/keystore.msm8953.so|9be4c88926ebed98b2b23725f8118ff9d0bbb2d6
+vendor/lib64/hw/keystore.msm8953.so|9f4d991dfa359299739bd443b63731528d9cb5d0
 
 # Latency - from LA.UM.8.6.2.r1-06600-89xx.0
 product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
