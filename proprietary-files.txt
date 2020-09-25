@@ -976,10 +976,9 @@ vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so|3b2e731f58932600b6
 vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|422cd02753b966121a19a7d258248d46f82f887b
 vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so|1fc3edceb53846c7908fdb963649cdcac83d810d
 
-# Consumerir
-vendor/bin/consumerird
-vendor/lib/hw/consumerir.default.so
-vendor/lib64/hw/consumerir.default.so
+# Consumerir - from MIUI-V11.0.2.0.QFLCNXM beta
+vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.default.onclite.so|6d3e8ecaae465d6e2282a3a99da69dd4ec56bdc8
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.onclite.so|7945c6476a3fa04d9cee4fe60e188d342fbb1bfb
 
 # DPM - from daisy-user-10-QKQ1.191002.002-V11.0.10.0.QDLMIXM-release-keys
 framework/tcmclient.jar|6ef9ca98f67c144fc8ae941bb3a47f99cbd93098
