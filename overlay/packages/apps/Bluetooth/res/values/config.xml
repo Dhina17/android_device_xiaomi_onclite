@@ -14,7 +14,12 @@
     <bool name="profile_supported_a2dp">false</bool>
     <bool name="profile_supported_a2dp_sink">true</bool>
     <bool name="profile_supported_avrcp_controller">true</bool>
+    <bool name="profile_supported_hfpclient">true</bool>
+    <bool name="profile_supported_hs_hfp">false</bool>
 
     <!-- If true, device requests audio focus and start avrcp updates on source start or play -->
     <bool name="a2dp_sink_automatically_request_audio_focus">true</bool>
+
+    <!-- For enabling the hfp client connection service -->
+    <bool name="hfp_client_connection_service_enabled">true</bool>
 </resources>
